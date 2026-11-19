@@ -1,0 +1,13 @@
+# Blender auto-backups
+*.blend1
+*.blend2
+
+# OS and Google Drive clutter
+desktop.ini
+Thumbs.db
+.DS_Store
+.tmp.drivedownload/
+.tmp.driveupload/
+
+# Editor settings
+.vscode/
