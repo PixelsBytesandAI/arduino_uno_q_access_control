@@ -16,7 +16,7 @@ It has two printed assemblies:
 ## Status
 
 - **Electronics and code:** working on a real UNO Q. Card access, fingerprint enrollment and fingerprint access all work.
-- **Mini door:** printed and swung by the servo. The complete assembly, with frame and top pin fitted, hasn't been checked yet.
+- **Mini door:** printed and fully assembled. The frame fits and the servo swings the door open and closed.
 - **Access box:**
   - A lid was printed, but the RC522 pocket was too tight, so it was lengthened to 62 mm. The fixed lid hasn't been printed yet.
   - The body hasn't been confirmed printed.
@@ -182,10 +182,7 @@ UNO Q tips that cost us time are in [Documentation/UNO_Q_NOTES.md](Documentation
 - **Access box fits:**
   - The R503 hole and UNO Q standoffs are unverified.
   - The RC522 pocket was lengthened from 61 mm to 62 mm after a test print was tight. The new length hasn't been printed yet.
-- **Mini door:**
-  - It has been run without its frame and top pin fitted, so the full assembly is unverified.
-  - The servo horn pocket was sized from a photo (hub about 7 mm across, arm about 16 mm centre to tip).
-  - The door's 1.5 mm floor clearance depends on how far the horn seats on the servo shaft, estimated at about 3 mm.
+- **Mini door horn fit:** the full assembly works with our SG90's single-arm horn, but SG90 horns vary between sellers. The pocket was sized for a hub about 7 mm across and an arm about 16 mm centre to tip. Check yours before printing.
 - **UNO Q mounting holes:** confirmed against a photo, not measured directly.
 - **Servo noise:** the servo is noisy while it moves. Hardware-timed pulses (the Servo library) made no difference, so the cause is probably the SG90 itself or the door rubbing, not the code.
 - **R503 wire colours:** the colours in `WIRING.md` come from third-party tutorials. Check them against the sheet that came with your sensor.
