@@ -19,7 +19,7 @@ It has two printed assemblies:
 - **Mini door:** printed and fully assembled. The frame fits and the servo swings the door open and closed.
 - **Access box:**
   - A lid was printed, but the RC522 pocket was too tight, so it was lengthened to 62 mm. The fixed lid hasn't been printed yet.
-  - The body hasn't been confirmed printed.
+  - The body is printed and the UNO Q mounts on its standoffs. The R503 is a perfect fit in the lid.
 
 See [Known gaps](#known-gaps) for the details.
 
@@ -38,7 +38,7 @@ See [Known gaps](#known-gaps) for the details.
 **Hardware**
 
 - 4 × M3 screws for the access box lid, about 10–12 mm long, threading directly into the plastic posts.
-- 4 × small screws for the UNO Q standoffs (2.6 mm pilot holes; M3 thread-forming or similar).
+- 4 × small screws for the UNO Q standoffs (2.6 mm pilot holes; for M3 screws, drill them out slightly first).
 - 2 × wall screws with heads under 8 mm across for the keyhole slots.
 - The two mounting screws and horn screw that come with the SG90.
 - Optional: 1 × M3 × 20 screw as the door's top pivot.
@@ -69,7 +69,7 @@ See [Known gaps](#known-gaps) for the details.
 All STLs are in millimetres, already in print orientation, and need no supports.
 
 **Suggested order:**
-1. **Access box lid.** It holds the two least certain fits: the R503 hole and the RC522 pocket.
+1. **Access box lid.** The lengthened RC522 pocket is the only fit not yet confirmed by a print.
 2. **Mini door.** Check the horn pocket in its bottom edge against your servo horn before printing the base and frame.
 3. Everything else.
 
@@ -179,11 +179,9 @@ UNO Q tips that cost us time are in [Documentation/UNO_Q_NOTES.md](Documentation
 
 ## Known gaps
 
-- **Access box fits:**
-  - The R503 hole and UNO Q standoffs are unverified.
-  - The RC522 pocket was lengthened from 61 mm to 62 mm after a test print was tight. The new length hasn't been printed yet.
+- **RC522 pocket:** lengthened from 61 mm to 62 mm after a test print was tight. The new length hasn't been printed yet.
+- **UNO Q standoffs:** the 2.6 mm pilot holes were a little tight for M3 screws, so we drilled them out slightly. Do the same, or use a thread-forming screw.
 - **Mini door horn fit:** the full assembly works with our SG90's single-arm horn, but SG90 horns vary between sellers. The pocket was sized for a hub about 7 mm across and an arm about 16 mm centre to tip. Check yours before printing.
-- **UNO Q mounting holes:** confirmed against a photo, not measured directly.
 - **Servo noise:** the servo is noisy while it moves. Hardware-timed pulses (the Servo library) made no difference, so the cause is probably the SG90 itself or the door rubbing, not the code.
 - **R503 wire colours:** the colours in `WIRING.md` come from third-party tutorials. Check them against the sheet that came with your sensor.
 
