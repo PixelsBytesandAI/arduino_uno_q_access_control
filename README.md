@@ -47,7 +47,7 @@ See [Known gaps](#known-gaps) for the details.
 
 | Path | What it is |
 |---|---|
-| `Code/AccessControl/` | The Arduino sketch, plus `MFRC522_bundled.h` (the RFID library, bundled; see [Firmware](#firmware)) |
+| `Code/AccessControl/` | The Arduino sketch, plus `MFRC522_bundled.h` (the RFID library, bundled; see [Uploading the sketch](#uploading-the-sketch)) |
 | `Print Files/` | STLs for all printed parts |
 | `3D files/` | Blender source (`Access_Control_Box.blend`) and renders |
 | `Documentation/WIRING.md` | Pin-by-pin wiring, with a diagram (`wiring_diagram.svg`) |
@@ -83,7 +83,7 @@ Full details are in [Documentation/WIRING.md](Documentation/WIRING.md).
 
 **Power the RC522 and R503 from 3.3 V, never 5 V.** Only the servo uses 5 V.
 
-## Firmware
+## Uploading the sketch
 
 Upload with **Arduino App Lab**. The sketch prints through `Monitor`, which only shows in App Lab's Serial Monitor tab, not in the Arduino IDE's Serial Monitor.
 
