@@ -182,7 +182,7 @@ UNO Q tips that cost us time are in [Documentation/UNO_Q_NOTES.md](Documentation
 - **RC522 pocket:** lengthened from 61 mm to 62 mm after a test print was tight. The new length hasn't been printed yet.
 - **UNO Q standoffs:** the 2.6 mm pilot holes were a little tight for M3 screws, so we drilled them out slightly. Do the same, or use a thread-forming screw.
 - **Mini door horn fit:** the full assembly works with our SG90's single-arm horn, but SG90 horns vary between sellers. The pocket was sized for a hub about 7 mm across and an arm about 16 mm centre to tip. Check yours before printing.
-- **Servo noise:** the servo is noisy while it moves. Hardware-timed pulses (the Servo library) made no difference, so the cause is probably the SG90 itself or the door rubbing, not the code.
+- **Servo noise:** the servo is noisy while it moves.
 - **R503 wire colours:** the colours in `WIRING.md` come from third-party tutorials. Check them against the sheet that came with your sensor.
 
 ## License
